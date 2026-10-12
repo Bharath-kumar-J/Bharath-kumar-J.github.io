@@ -1,7 +1,7 @@
 # Bharath Kumar J
 **DevOps & Cloud Infrastructure Engineer**  
 Bengaluru, Karnataka, India • +91 9032246270 • mithuniyer01@gmail.com  
-**Portfolio:** [bharath-kumar-j.github.io](https://bharath-kumar-j.github.io) • **GitHub:** [github.com/Bharath-kumar-J](https://github.com/Bharath-kumar-J) • **LinkedIn:** [linkedin.com/in/bharath-kumar-j](https://linkedin.com/in/bharath-kumar-j)
+**Portfolio:** [bharath-kumar-j.github.io](https://bharath-kumar-j.github.io) • **GitHub:** [github.com/Bharath-kumar-J](https://github.com/Bharath-kumar-J) • **LinkedIn:** [linkedin.com/in/jbharathkumar](https://www.linkedin.com/in/jbharathkumar/)
 
 ---
 

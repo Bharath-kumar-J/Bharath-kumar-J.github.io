@@ -26,4 +26,4 @@ This repository hosts my personal engineering portfolio showcasing:
 - **Email:** [mithuniyer01@gmail.com](mailto:mithuniyer01@gmail.com)
 - **Phone:** +91 9032246270
 - **GitHub:** [github.com/Bharath-kumar-J](https://github.com/Bharath-kumar-J)
-- **LinkedIn:** [linkedin.com/in/bharath-kumar-j](https://linkedin.com/in/bharath-kumar-j)
+- **LinkedIn:** [linkedin.com/in/jbharathkumar](https://linkedin.com/in/jbharathkumar)

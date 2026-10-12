@@ -103,6 +103,7 @@ a188f98c21da   prom/prometheus:v2.52.0        "/bin/prometheus --c…"   <span c
 <span class="text-cyan">Email    :</span> mithuniyer01@gmail.com<br>
 <span class="text-cyan">Phone    :</span> +91 9032246270<br>
 <span class="text-cyan">Location :</span> Bengaluru, Karnataka, India<br>
+<span class="text-cyan">LinkedIn :</span> https://www.linkedin.com/in/jbharathkumar/<br>
 <span class="text-cyan">GitHub   :</span> https://github.com/Bharath-kumar-J<br>
 <span class="text-cyan">Status   :</span> Available for immediate DevOps / SRE opportunities
 </div>`
