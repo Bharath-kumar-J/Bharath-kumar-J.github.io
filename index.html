@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharath Kumar J | DevOps & Cloud Infrastructure Engineer</title>
+  <meta name="description" content="DevOps & Cloud Infrastructure Engineer specializing in Kubernetes, CI/CD, Terraform, automated observability, and enterprise cloud reliability.">
+  <meta name="keywords" content="Bharath Kumar J, DevOps Engineer, Cloud Engineer, Kubernetes, Terraform, AWS, GCP, CI/CD, HPE, SRE">
+  <meta name="author" content="Bharath Kumar J">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bharath Kumar J | DevOps & Cloud Infrastructure Engineer">
+  <meta property="og:description" content="Production infrastructure, automated CI/CD pipelines, and AI-driven cloud observability.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow effects -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-bracket">&lt;</span>
+        <span class="brand-name">Bharath Kumar J</span>
+        <span class="brand-tag">/DevOps</span>
+        <span class="brand-bracket">&gt;</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#sentinel-demo" class="nav-link">Live Sentinel AI</a>
+        <a href="#pipeline-diagram" class="nav-link">Architecture</a>
+        <a href="#skills" class="nav-link">Tech Stack</a>
+        <a href="#terminal" class="nav-link terminal-pill">
+          <span class="term-dot"></span> Terminal
+        </a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="Bharath_Kumar_DevOps_Resume.pdf" class="btn btn-primary btn-sm" download="Bharath_Kumar_DevOps_Resume.pdf" id="btn-download-resume-nav">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Resume PDF</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-badge">
+          <span class="pulse-status"></span>
+          <span>Enterprise DevOps & Infrastructure Automation • Bengaluru, IN</span>
+        </div>
+
+        <h1 class="hero-title">
+          Engineering Resilient <br>
+          <span class="gradient-text">Cloud & DevOps Systems</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          DevOps & Cloud Infrastructure Engineer with <strong>2+ years of enterprise experience at Hewlett Packard Enterprise (HPE)</strong>. 
+          Architecting automated CI/CD pipelines, declarative Kubernetes clusters, AI-driven incident detection, and Python reliability tooling.
+        </p>
+
+        <!-- Key Metrics Strip -->
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-value">99.9%</div>
+            <div class="stat-label">Enterprise Uptime Maintained</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">35%+</div>
+            <div class="stat-label">Manual Deploy Time Reduced</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">15+ Tools</div>
+            <div class="stat-label">Custom MCP SRE Automation</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">99 Tests</div>
+            <div class="stat-label">Automated Detection Suite</div>
+          </div>
+        </div>
+
+        <!-- Call to actions -->
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary" id="btn-explore-projects">
+            <span>Explore Engineering Projects</span>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#sentinel-demo" class="btn btn-secondary" id="btn-view-ai-demo">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            <span>Live SRE Agent Demo</span>
+          </a>
+          <a href="Bharath_Kumar_DevOps_Resume.pdf" class="btn btn-outline" download="Bharath_Kumar_DevOps_Resume.pdf" id="btn-download-resume-hero">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            <span>Download 1-Page Resume</span>
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/Bharath-kumar-J" target="_blank" rel="noopener noreferrer" class="social-chip" id="chip-github">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            <span>github.com/Bharath-kumar-J</span>
+          </a>
+          <a href="mailto:mithuniyer01@gmail.com" class="social-chip" id="chip-email">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>mithuniyer01@gmail.com</span>
+          </a>
+          <a href="tel:+919032246270" class="social-chip" id="chip-phone">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>+91 9032246270</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive DevOps Terminal -->
+    <section id="terminal" class="terminal-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Interactive Environment</div>
+          <h2 class="section-title">DevOps Shell & Node Inspector</h2>
+          <p class="section-desc">Inspect production nodes, test simulated commands, or explore architecture via terminal prompt.</p>
+        </div>
+
+        <div class="terminal-window">
+          <div class="terminal-bar">
+            <div class="term-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="term-title">bharath@prod-infra-node-01: ~ (zsh)</div>
+            <div class="term-status"><span class="status-indicator"></span> HEALTHY</div>
+          </div>
+          
+          <div class="terminal-body" id="term-output">
+            <div class="term-line output">
+              <span class="term-accent">Welcome to Bharath's Infrastructure Node.</span> Type <span class="term-highlight">'help'</span> or click the quick commands below.
+            </div>
+            <div class="term-line output">
+              <span class="term-dim">Kernel: Linux 6.8.0-cloud-x86_64 | Host: HPE ProLiant Gen10 | Cluster: k8s-prod-us-east-1</span>
+            </div>
+          </div>
+
+          <!-- Quick interactive command buttons -->
+          <div class="terminal-quick-cmds">
+            <button class="quick-cmd-btn" data-cmd="kubectl get nodes">kubectl get nodes</button>
+            <button class="quick-cmd-btn" data-cmd="cat experience.json">cat experience.json</button>
+            <button class="quick-cmd-btn" data-cmd="docker ps">docker ps</button>
+            <button class="quick-cmd-btn" data-cmd="sentinel-check --all">sentinel-check --all</button>
+            <button class="quick-cmd-btn" data-cmd="get contact">get contact</button>
+            <button class="quick-cmd-btn" data-cmd="clear">clear</button>
+          </div>
+
+          <div class="terminal-input-row">
+            <span class="term-prompt">bharath@infra-k8s:~$</span>
+            <input type="text" id="terminal-input" placeholder="Type a command (e.g. 'help', 'kubectl get pods', 'cat bio')..." autocomplete="off" spellcheck="false">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="experience-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Enterprise Background</div>
+          <h2 class="section-title">Production Experience</h2>
+          <p class="section-desc">Demonstrated enterprise reliability and infrastructure engineering at Hewlett Packard Enterprise.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Role 1 -->
+          <div class="timeline-card">
+            <div class="card-glow"></div>
+            <div class="timeline-header">
+              <div class="role-info">
+                <h3 class="role-title">DevOps & Automation Specialist</h3>
+                <div class="role-company">
+                  <span class="company-name">Hewlett Packard Enterprise (HPE)</span>
+                  <span class="official-title">(Title: Technical Solutions & Development Specialist)</span>
+                </div>
+              </div>
+              <div class="role-meta">
+                <span class="role-badge current">Current Role</span>
+                <span class="role-date">Jan 2025 – Present</span>
+                <span class="role-location">Bengaluru, IN</span>
+              </div>
+            </div>
+
+            <p class="role-overview">
+              Leading infrastructure automation, deployment pipelines, and operational reliability for mission-critical enterprise environments.
+            </p>
+
+            <ul class="role-bullets">
+              <li>
+                <span class="bullet-icon">▹</span>
+                <span><strong>Infrastructure Reliability & Scale:</strong> Administered and sustained 100+ bare-metal and hybrid cloud server nodes, maintaining <strong>99.9% production availability</strong> across high-availability clusters.</span>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <span><strong>Automation & Internal Tooling:</strong> Engineered automated Python scripts and high-concurrency <strong>FastAPI REST APIs</strong> for self-service node auditing, eliminating <strong>35% of repetitive manual sysadmin workflows</strong>.</span>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <span><strong>Production Incident Management (RCA):</strong> Executed deep root-cause investigations, centralized log analysis (ELK/syslog), and telemetry troubleshooting—slashing <strong>Mean Time to Resolution (MTTR) by 25%</strong> for critical alerts.</span>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <span><strong>Deployment Enablement:</strong> Partnered with cross-functional engineering squads to govern zero-downtime releases, standardize configuration templates, and validate post-rollout health metrics.</span>
+              </li>
+            </ul>
+
+            <div class="role-tags">
+              <span class="tag">Linux Enterprise</span>
+              <span class="tag">FastAPI Automation</span>
+              <span class="tag">Production Support</span>
+              <span class="tag">ELK Stack</span>
+              <span class="tag">Log Analysis</span>
+              <span class="tag">Root Cause Analysis</span>
+              <span class="tag">HPE Infrastructure</span>
+            </div>
+          </div>
+
+          <!-- Role 2 -->
+          <div class="timeline-card">
+            <div class="card-glow"></div>
+            <div class="timeline-header">
+              <div class="role-info">
+                <h3 class="role-title">Cloud Infrastructure & Automation Engineer</h3>
+                <div class="role-company">
+                  <span class="company-name">Hewlett Packard Enterprise (HPE)</span>
+                </div>
+              </div>
+              <div class="role-meta">
+                <span class="role-date">Feb 2024 – Dec 2024</span>
+                <span class="role-location">Bengaluru, IN</span>
+              </div>
+            </div>
+
+            <p class="role-overview">
+              Focused on cloud Identity & Access Management (IAM), security hardening, deployment lifecycle automation, and operational scripting.
+            </p>
+
+            <ul class="role-bullets">
+              <li>
+                <span class="bullet-icon">▹</span>
+                <span><strong>Enterprise IAM & Security:</strong> Engineered and governed Role-Based Access Control (RBAC) policies and authentication workflows across cloud environments for <strong>500+ enterprise user accounts</strong>, enforcing zero-trust principles.</span>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <span><strong>Operational Scripting:</strong> Built automated Bash and Python cron workflows for scheduled audit compliance, log rotation, and key expiration alerts—saving <strong>15+ engineering hours weekly</strong>.</span>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <span><strong>Observability & Triage:</strong> Conducted end-to-end telemetry triage and log correlation across cloud IAM gates, troubleshooting complex authentication bottlenecks and permission drift.</span>
+              </li>
+              <li>
+                <span class="bullet-icon">▹</span>
+                <span><strong>Cross-Functional Collaboration:</strong> Partnered with security and infrastructure stakeholders to design repeatable configuration baselines and automate access provisioning.</span>
+              </li>
+            </ul>
+
+            <div class="role-tags">
+              <span class="tag">Cloud IAM</span>
+              <span class="tag">RBAC Security</span>
+              <span class="tag">Python Automation</span>
+              <span class="tag">Bash Scripting</span>
+              <span class="tag">Access Governance</span>
+              <span class="tag">Zero-Trust</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flagship Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Featured Architectures</div>
+          <h2 class="section-title">Production-Grade DevOps Projects</h2>
+          <p class="section-desc">Engineered for resiliency, security compliance, and autonomous cloud infrastructure operations.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: GCP Sentinel -->
+          <article class="project-card featured">
+            <div class="card-glow"></div>
+            <div class="project-badge-bar">
+              <span class="badge ai">AI-Powered SRE</span>
+              <span class="badge github-link">
+                <a href="https://github.com/Bharath-kumar-J/gcp-sentinel" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>Bharath-kumar-J/gcp-sentinel</span>
+                </a>
+              </span>
+            </div>
+
+            <h3 class="project-title">GCP Sentinel: Autonomous AI Infrastructure Monitoring Agent</h3>
+            <p class="project-desc">
+              Built an intelligent site-reliability monitoring agent that continuously watches Google Cloud infrastructure through a Model Context Protocol (MCP) server equipped with <strong>15 read-only tools</strong>.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span><strong>Deterministic Anomaly Detection:</strong> Rules for CPU/Memory spikes, Pod CrashLoopBackOff, OOM kills, Cloud SQL connection pool exhaustion, and Load Balancer 5xx anomalies.</span>
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span><strong>DeepSeek AI + Heuristic Fallback:</strong> Executes automated multi-step root-cause analysis (RCA) with automatic failover to rule-based heuristic reasoning when offline.</span>
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span><strong>Simulated Fleet & 7 Failure Scenarios:</strong> Realistic synthetic testing harness replicating VM outage, disk pressure, and pod crash loops without requiring live cloud spend.</span>
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span><strong>Enterprise Alert Hygiene:</strong> SQLite-backed fingerprinting, configurable cooldown periods, and <strong>99 unit/integration tests</strong> covering detection loops.</span>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python 3.12</span>
+              <span class="tech-tag">Model Context Protocol (MCP)</span>
+              <span class="tech-tag">DeepSeek AI</span>
+              <span class="tech-tag">GCP APIs</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">Pytest (99 Tests)</span>
+              <span class="tech-tag">SMTP Alerting</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="#sentinel-demo" class="btn btn-sm btn-primary">Try Interactive Simulator ↓</a>
+              <a href="https://github.com/Bharath-kumar-J/gcp-sentinel" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">View GitHub Repo ↗</a>
+            </div>
+          </article>
+
+          <!-- Project 2: Cloud Native CI/CD -->
+          <article class="project-card">
+            <div class="card-glow"></div>
+            <div class="project-badge-bar">
+              <span class="badge k8s">GitOps & Cloud-Native</span>
+              <span class="badge github-link">
+                <a href="https://github.com/Bharath-kumar-J/capstone-devops" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>Bharath-kumar-J/capstone-devops</span>
+                </a>
+              </span>
+            </div>
+
+            <h3 class="project-title">Cloud-Native CI/CD Pipeline & K8s Auto-Scaling Engine</h3>
+            <p class="project-desc">
+              End-to-end automated deployment pipeline integrating security gates, multi-stage Docker builds, Terraform Infrastructure as Code, and dynamic Kubernetes pod auto-scaling.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span><strong>Automated GitHub Actions CI/CD:</strong> Triggers unit testing, linting, Trivy vulnerability scans, and container image publishing on every merge.</span>
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span><strong>Kubernetes Auto-Scaling (HPA):</strong> Configured Horizontal Pod Autoscaler scaling workloads from 2 to 10 replicas under Locust simulated traffic spikes.</span>
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span><strong>Infrastructure as Code:</strong> Provisioned cluster networking, storage classes, and compute instances declaratively via Terraform.</span>
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span><strong>Observability Dashboards:</strong> Deployed Prometheus metric scrapers and custom Grafana panels tracking latency, error budget, and CPU saturation.</span>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">GitHub Actions</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Kubernetes (Kind)</span>
+              <span class="tech-tag">Terraform</span>
+              <span class="tech-tag">Prometheus</span>
+              <span class="tech-tag">Grafana</span>
+              <span class="tech-tag">Redis</span>
+              <span class="tech-tag">Trivy</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="#pipeline-diagram" class="btn btn-sm btn-primary">View Pipeline Flow ↓</a>
+              <a href="https://github.com/Bharath-kumar-J/capstone-devops" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">View GitHub Repo ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Live GCP Sentinel AI Simulator -->
+    <section id="sentinel-demo" class="demo-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Interactive Simulation</div>
+          <h2 class="section-title">Live GCP Sentinel AI Diagnostics</h2>
+          <p class="section-desc">Select an infrastructure failure scenario below to see how the autonomous MCP tools and DeepSeek AI agent detect, triage, and solve real outages in real time.</p>
+        </div>
+
+        <div class="simulator-box">
+          <div class="sim-controls">
+            <label class="control-label">Select Incident Scenario:</label>
+            <div class="scenario-buttons">
+              <button class="scenario-btn active" data-scenario="crashloop">
+                <span class="scenario-status red"></span>
+                <span>Pod CrashLoopBackOff</span>
+              </button>
+              <button class="scenario-btn" data-scenario="cpu-spike">
+                <span class="scenario-status orange"></span>
+                <span>Compute Engine CPU Saturation (98%)</span>
+              </button>
+              <button class="scenario-btn" data-scenario="sql-disk">
+                <span class="scenario-status red"></span>
+                <span>Cloud SQL Disk Exhaustion</span>
+              </button>
+              <button class="scenario-btn" data-scenario="oom-kill">
+                <span class="scenario-status orange"></span>
+                <span>Container OOMKilled Anomaly</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="sim-display-grid">
+            <!-- Simulated Telemetry Stream -->
+            <div class="sim-panel telemetry-panel">
+              <div class="panel-header">
+                <span class="pulse-green"></span>
+                <span>Telemetry Ingestion & MCP Tools (Read-Only)</span>
+              </div>
+              <div class="panel-content" id="sim-telemetry">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
+
+            <!-- DeepSeek AI RCA & Action Plan -->
+            <div class="sim-panel ai-panel">
+              <div class="panel-header">
+                <span class="ai-sparkle">✦</span>
+                <span>DeepSeek AI Root Cause Analysis & Remediation</span>
+              </div>
+              <div class="panel-content" id="sim-analysis">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
+          </div>
+
+          <div class="sim-footer">
+            <div class="sim-meta">
+              <span>Status: <strong class="text-emerald">Incident Diagnosed & Alert Dispatched</strong></span>
+              <span>De-duplication: <strong class="text-cyan">SQLite Fingerprint Cooldown Active</strong></span>
+            </div>
+            <button class="btn btn-sm btn-primary" id="btn-rerun-sim">Re-run Diagnostic Scan</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive CI/CD Architecture Flow -->
+    <section id="pipeline-diagram" class="pipeline-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Architecture Workflow</div>
+          <h2 class="section-title">Automated Production CI/CD Pipeline</h2>
+          <p class="section-desc">Click on any pipeline stage to inspect the technical implementation details.</p>
+        </div>
+
+        <div class="pipeline-flow">
+          <div class="pipeline-stage active" data-stage="stage-git">
+            <div class="stage-num">01</div>
+            <div class="stage-icon">⌥</div>
+            <div class="stage-title">Git Commit</div>
+            <div class="stage-sub">Feature Branch PR</div>
+          </div>
+          <div class="pipeline-arrow">➔</div>
+
+          <div class="pipeline-stage" data-stage="stage-ci">
+            <div class="stage-num">02</div>
+            <div class="stage-icon">⚡</div>
+            <div class="stage-title">GitHub Actions</div>
+            <div class="stage-sub">Pytest & Lint Gate</div>
+          </div>
+          <div class="pipeline-arrow">➔</div>
+
+          <div class="pipeline-stage" data-stage="stage-sec">
+            <div class="stage-num">03</div>
+            <div class="stage-icon">🛡</div>
+            <div class="stage-title">Trivy Security</div>
+            <div class="stage-sub">CVE & Secret Audit</div>
+          </div>
+          <div class="pipeline-arrow">➔</div>
+
+          <div class="pipeline-stage" data-stage="stage-iac">
+            <div class="stage-num">04</div>
+            <div class="stage-icon">🏗</div>
+            <div class="stage-title">Terraform IaC</div>
+            <div class="stage-sub">State & Ingress Sync</div>
+          </div>
+          <div class="pipeline-arrow">➔</div>
+
+          <div class="pipeline-stage" data-stage="stage-k8s">
+            <div class="stage-num">05</div>
+            <div class="stage-icon">☸</div>
+            <div class="stage-title">Kubernetes HPA</div>
+            <div class="stage-sub">Zero-Downtime Rollout</div>
+          </div>
+          <div class="pipeline-arrow">➔</div>
+
+          <div class="pipeline-stage" data-stage="stage-obs">
+            <div class="stage-num">06</div>
+            <div class="stage-icon">📊</div>
+            <div class="stage-title">Observability</div>
+            <div class="stage-sub">Prometheus & Grafana</div>
+          </div>
+        </div>
+
+        <div class="stage-detail-card" id="stage-detail-view">
+          <div class="detail-header">
+            <h4 id="detail-title">Stage 01: Git Commit & Branch Protection</h4>
+            <span class="detail-badge" id="detail-tech">Git • Conventional Commits</span>
+          </div>
+          <p id="detail-desc">Developers commit code following conventional commit standards. Strict GitHub branch protection rules require passing status checks and mandatory code reviews before merge into the production main branch.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Matrix -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Technical Competencies</div>
+          <h2 class="section-title">DevOps & Cloud Skill Matrix</h2>
+          <p class="section-desc">Production technologies applied in enterprise operations and cloud engineering.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1 -->
+          <div class="skill-group">
+            <div class="group-title">
+              <span class="icon-bubble">☸</span>
+              <span>Containerization & Orchestration</span>
+            </div>
+            <div class="skill-pills">
+              <span class="pill primary">Kubernetes (K8s)</span>
+              <span class="pill primary">Docker</span>
+              <span class="pill">Helm</span>
+              <span class="pill">Horizontal Pod Autoscaler (HPA)</span>
+              <span class="pill">Containerd</span>
+              <span class="pill">Kind / Minikube</span>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skill-group">
+            <div class="group-title">
+              <span class="icon-bubble">⚡</span>
+              <span>CI/CD & Infrastructure as Code</span>
+            </div>
+            <div class="skill-pills">
+              <span class="pill primary">GitHub Actions</span>
+              <span class="pill primary">Terraform</span>
+              <span class="pill">Jenkins</span>
+              <span class="pill">Ansible</span>
+              <span class="pill">YAML Automation</span>
+              <span class="pill">Git / GitOps</span>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skill-group">
+            <div class="group-title">
+              <span class="icon-bubble">☁</span>
+              <span>Cloud Platforms & Systems</span>
+            </div>
+            <div class="skill-pills">
+              <span class="pill primary">AWS (EC2, S3, IAM, VPC)</span>
+              <span class="pill primary">Google Cloud Platform (GCP)</span>
+              <span class="pill">HPE GreenLake</span>
+              <span class="pill">Enterprise Linux (RHEL, Ubuntu)</span>
+              <span class="pill">Networking & DNS</span>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skill-group">
+            <div class="group-title">
+              <span class="icon-bubble">📊</span>
+              <span>Observability & Site Reliability</span>
+            </div>
+            <div class="skill-pills">
+              <span class="pill primary">Prometheus</span>
+              <span class="pill primary">Grafana</span>
+              <span class="pill">ELK Stack / Loki</span>
+              <span class="pill">Root Cause Analysis (RCA)</span>
+              <span class="pill">Incident Triage (MTTR)</span>
+              <span class="pill">Model Context Protocol (MCP)</span>
+            </div>
+          </div>
+
+          <!-- Category 5 -->
+          <div class="skill-group">
+            <div class="group-title">
+              <span class="icon-bubble">🐍</span>
+              <span>Automation & Scripting</span>
+            </div>
+            <div class="skill-pills">
+              <span class="pill primary">Python 3</span>
+              <span class="pill primary">FastAPI</span>
+              <span class="pill">Bash / Shell</span>
+              <span class="pill">REST APIs</span>
+              <span class="pill">Redis</span>
+              <span class="pill">Pytest</span>
+            </div>
+          </div>
+
+          <!-- Category 6 -->
+          <div class="skill-group">
+            <div class="group-title">
+              <span class="icon-bubble">🛡</span>
+              <span>DevSecOps & Operations</span>
+            </div>
+            <div class="skill-pills">
+              <span class="pill primary">IAM & RBAC</span>
+              <span class="pill primary">Trivy Vulnerability Scanner</span>
+              <span class="pill">Zero-Trust Policies</span>
+              <span class="pill">Production Runbooks</span>
+              <span class="pill">Disaster Recovery</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Hire Me Section -->
+    <section id="contact" class="contact-section">
+      <div class="container contact-container">
+        <div class="contact-card">
+          <div class="card-glow"></div>
+          <div class="contact-badge">Ready for Immediate DevOps / SRE Onboarding</div>
+          <h2 class="contact-title">Let's Build Resilient Infrastructure Together</h2>
+          <p class="contact-subtitle">
+            Seeking opportunities as a <strong>DevOps Engineer, Cloud Infrastructure Engineer, or Site Reliability Engineer (SRE)</strong>. 
+            Reach out directly for interviews, technical walkthroughs, or references.
+          </p>
+
+          <div class="contact-grid">
+            <a href="mailto:mithuniyer01@gmail.com" class="contact-item" id="link-email">
+              <div class="item-icon">✉</div>
+              <div class="item-content">
+                <span class="item-label">Direct Email</span>
+                <span class="item-value">mithuniyer01@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="tel:+919032246270" class="contact-item" id="link-phone">
+              <div class="item-icon">✆</div>
+              <div class="item-content">
+                <span class="item-label">Phone / WhatsApp</span>
+                <span class="item-value">+91 9032246270</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/Bharath-kumar-J" target="_blank" rel="noopener noreferrer" class="contact-item" id="link-github">
+              <div class="item-icon">⌥</div>
+              <div class="item-content">
+                <span class="item-label">GitHub Portfolio</span>
+                <span class="item-value">github.com/Bharath-kumar-J</span>
+              </div>
+            </a>
+
+            <div class="contact-item" id="link-location">
+              <div class="item-icon">📍</div>
+              <div class="item-content">
+                <span class="item-label">Current Location</span>
+                <span class="item-value">Bengaluru, Karnataka, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a href="Bharath_Kumar_DevOps_Resume.pdf" class="btn btn-primary btn-lg" download="Bharath_Kumar_DevOps_Resume.pdf" id="btn-download-resume-footer">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download Updated DevOps Resume (PDF)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-brand">Bharath Kumar J</span>
+        <span class="footer-copy">• © 2026 DevOps Engineering Portfolio. Designed for production performance.</span>
+      </div>
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast notifications -->
+  <div class="toast" id="toast-msg"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bharath Kumar J - DevOps & Cloud Infrastructure Engineer</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 10mm 12mm 10mm 12mm;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      line-height: 1.35;
+      font-size: 9.5pt;
+      background: #ffffff;
+      padding: 0;
+    }
+    .resume-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 8px;
+      border-bottom: 1.5px solid #2563eb;
+      padding-bottom: 6px;
+    }
+    .name {
+      font-size: 20pt;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: #0f172a;
+      text-transform: uppercase;
+    }
+    .target-title {
+      font-size: 10.5pt;
+      font-weight: 600;
+      color: #2563eb;
+      margin-top: 2px;
+      letter-spacing: 0.5px;
+    }
+    .contact-line {
+      font-size: 8.5pt;
+      color: #475569;
+      margin-top: 4px;
+    }
+    .contact-line a {
+      color: #0284c7;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact-line a:hover {
+      text-decoration: underline;
+    }
+    .separator {
+      margin: 0 4px;
+      color: #94a3b8;
+    }
+
+    /* Section Headings */
+    .section-title {
+      font-size: 10pt;
+      font-weight: 700;
+      color: #0f172a;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 2px;
+      margin-top: 7px;
+      margin-bottom: 4px;
+    }
+
+    /* Professional Summary */
+    .summary-text {
+      font-size: 9pt;
+      color: #334155;
+      text-align: justify;
+      line-height: 1.35;
+    }
+
+    /* Skills Grid */
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 8.8pt;
+    }
+    .skills-table td {
+      padding: 1.5px 0;
+      vertical-align: top;
+    }
+    .skill-cat {
+      font-weight: 700;
+      color: #1e293b;
+      width: 22%;
+    }
+    .skill-list {
+      color: #334155;
+      width: 78%;
+    }
+
+    /* Experience */
+    .exp-item {
+      margin-bottom: 6px;
+    }
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+    .company-name {
+      font-size: 10pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .exp-location {
+      font-size: 8.5pt;
+      color: #64748b;
+      font-style: italic;
+    }
+    .role-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 9pt;
+      font-weight: 600;
+      color: #2563eb;
+      margin-bottom: 2px;
+    }
+    .role-official {
+      font-size: 8pt;
+      color: #64748b;
+      font-weight: normal;
+      font-style: italic;
+    }
+    .role-dates {
+      font-size: 8.5pt;
+      color: #475569;
+      font-weight: 500;
+    }
+
+    /* Bullets */
+    ul.bullets {
+      list-style-type: disc;
+      margin-left: 15px;
+      padding-left: 0;
+    }
+    ul.bullets li {
+      font-size: 8.8pt;
+      color: #334155;
+      margin-bottom: 2px;
+      line-height: 1.32;
+      text-align: justify;
+    }
+    ul.bullets li strong {
+      color: #0f172a;
+    }
+
+    /* Projects */
+    .project-item {
+      margin-bottom: 5px;
+    }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .project-name {
+      font-size: 9.5pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .project-repo {
+      font-size: 8.5pt;
+      color: #0284c7;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .project-tech {
+      font-size: 8.2pt;
+      color: #475569;
+      font-style: italic;
+      margin-bottom: 2px;
+    }
+
+    /* Education */
+    .edu-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 9pt;
+    }
+    .edu-school {
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .edu-degree {
+      color: #334155;
+    }
+    .edu-date {
+      font-size: 8.5pt;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="name">Bharath Kumar J</div>
+      <div class="target-title">DevOps & Cloud Infrastructure Engineer</div>
+      <div class="contact-line">
+        Bengaluru, Karnataka, India <span class="separator">•</span>
+        +91 9032246270 <span class="separator">•</span>
+        <a href="mailto:mithuniyer01@gmail.com">mithuniyer01@gmail.com</a> <span class="separator">•</span>
+        <a href="https://bharath-kumar-j.github.io" target="_blank">Portfolio</a> <span class="separator">•</span>
+        <a href="https://github.com/Bharath-kumar-J" target="_blank">GitHub</a> <span class="separator">•</span>
+        <a href="https://linkedin.com/in/bharath-kumar-j" target="_blank">LinkedIn</a>
+      </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section>
+      <div class="section-title">Professional Summary</div>
+      <p class="summary-text">
+        <strong>DevOps & Cloud Infrastructure Engineer</strong> with <strong>2+ years of enterprise experience at Hewlett Packard Enterprise (HPE)</strong>, specializing in Kubernetes orchestration, CI/CD pipeline automation, Infrastructure as Code (Terraform), and cloud observability. Proven track record administering 100+ production server nodes maintaining <strong>99.9% uptime SLA</strong>, engineering internal FastAPI automation services to <strong>cut operational overhead by 35%</strong>, and driving down incident <strong>MTTR by 25%</strong>. Developer of autonomous AI-powered SRE monitoring systems leveraging the Model Context Protocol (MCP).
+      </p>
+    </section>
+
+    <!-- Technical Skills -->
+    <section>
+      <div class="section-title">Technical Skills</div>
+      <table class="skills-table">
+        <tr>
+          <td class="skill-cat">Cloud & Platforms:</td>
+          <td class="skill-list">AWS (EC2, S3, IAM, VPC), Google Cloud Platform (GCP), HPE GreenLake, Enterprise Linux (RHEL, Ubuntu), Networking & DNS</td>
+        </tr>
+        <tr>
+          <td class="skill-cat">Containers & K8s:</td>
+          <td class="skill-list">Kubernetes (K8s), Docker, Helm, Horizontal Pod Autoscaler (HPA), Containerd, Kind, Minikube</td>
+        </tr>
+        <tr>
+          <td class="skill-cat">CI/CD & IaC:</td>
+          <td class="skill-list">GitHub Actions, Terraform, Jenkins, Ansible, YAML Declarative Pipelines, GitOps, Git</td>
+        </tr>
+        <tr>
+          <td class="skill-cat">Observability & SRE:</td>
+          <td class="skill-list">Prometheus, Grafana, ELK Stack / Loki, Incident Response, Root Cause Analysis (RCA), MTTR Optimization, MCP</td>
+        </tr>
+        <tr>
+          <td class="skill-cat">Automation & Security:</td>
+          <td class="skill-list">Python 3, FastAPI, Bash Scripting, REST APIs, Redis, Pytest, DevSecOps (Trivy), Cloud IAM & RBAC Governance</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Work Experience -->
+    <section>
+      <div class="section-title">Professional Experience</div>
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="company-name">Hewlett Packard Enterprise (HPE)</span>
+          <span class="exp-location">Bengaluru, India</span>
+        </div>
+        
+        <!-- Role 1 -->
+        <div class="role-row">
+          <span>DevOps & Automation Specialist <span class="role-official">(Official HR Title: Technical Solutions & Development Specialist)</span></span>
+          <span class="role-dates">Jan 2025 – Present</span>
+        </div>
+        <ul class="bullets">
+          <li>Administered and monitored 100+ bare-metal and hybrid-cloud enterprise server nodes, sustaining <strong>99.9% production availability</strong> across high-availability clusters.</li>
+          <li>Engineered automated Python scripts and high-concurrency <strong>FastAPI REST APIs</strong> for self-service node auditing and configuration management, slashing manual operational effort by <strong>35%</strong>.</li>
+          <li>Championed centralized observability and log analytics (ELK/syslog), conducting comprehensive Root Cause Analysis (RCA) to drive down Mean Time to Resolution (<strong>MTTR) by 25%</strong> for production incidents.</li>
+          <li>Collaborated with software engineering and release teams to implement standardized CI/CD deployment workflows and execute zero-downtime application rollouts.</li>
+        </ul>
+
+        <!-- Role 2 -->
+        <div class="role-row" style="margin-top: 4px;">
+          <span>Cloud Infrastructure & Automation Engineer</span>
+          <span class="role-dates">Feb 2024 – Dec 2024</span>
+        </div>
+        <ul class="bullets">
+          <li>Managed enterprise cloud Identity & Access Management (IAM) across multi-tenant environments, architecting least-privilege Role-Based Access Control (RBAC) policies for <strong>500+ enterprise accounts</strong>.</li>
+          <li>Automated repetitive sysadmin operations and compliance audits via scheduled Python and Bash automation jobs, recovering <strong>15+ engineering hours per week</strong>.</li>
+          <li>Investigated authentication anomalies, permission drifts, and system bottlenecks through systematic log aggregation and telemetry diagnostics.</li>
+          <li>Authored operational runbooks and infrastructure configuration templates to ensure high audit compliance across hybrid cloud infrastructure.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <div class="section-title">Flagship Engineering Projects</div>
+      <!-- Project 1 -->
+      <div class="project-item">
+        <div class="project-header">
+          <span class="project-name">GCP Sentinel — Autonomous AI Infrastructure Monitoring Agent</span>
+          <a href="https://github.com/Bharath-kumar-J/gcp-sentinel" target="_blank" class="project-repo">github.com/Bharath-kumar-J/gcp-sentinel ↗</a>
+        </div>
+        <div class="project-tech">Tech Stack: Python 3.12 • Model Context Protocol (MCP) • DeepSeek AI • GCP APIs • SQLite • SMTP • Pytest</div>
+        <ul class="bullets">
+          <li>Engineered an autonomous site-reliability monitoring agent interfacing with Google Cloud infrastructure via an MCP server containing <strong>15 custom read-only inspection tools</strong>.</li>
+          <li>Implemented deterministic detection rules for CPU/memory exhaustion, Pod CrashLoopBackOff, container OOM kills, Cloud SQL connection saturation, and load balancer 5xx errors.</li>
+          <li>Integrated DeepSeek AI reasoning for automated root-cause analysis with automatic heuristic fallback for zero-downtime offline operation.</li>
+          <li>Developed alert de-duplication with SQLite-backed fingerprinting, configurable cooldown periods, and <strong>99 automated unit/integration tests</strong>.</li>
+        </ul>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-item">
+        <div class="project-header">
+          <span class="project-name">Cloud-Native GitOps & CI/CD Platform</span>
+          <a href="https://github.com/Bharath-kumar-J/capstone-devops" target="_blank" class="project-repo">github.com/Bharath-kumar-J/capstone-devops ↗</a>
+        </div>
+        <div class="project-tech">Tech Stack: GitHub Actions • Docker • Kubernetes (Kind) • Terraform • Prometheus • Grafana • Flask • Redis • Trivy</div>
+        <ul class="bullets">
+          <li>Architected an end-to-end automated deployment pipeline using GitHub Actions, featuring automated linting, Pytest validation, and Trivy container vulnerability scanning.</li>
+          <li>Containerized microservices using multi-stage Docker builds and deployed onto Kubernetes with Horizontal Pod Autoscaler (HPA) dynamically scaling replicas under simulated load spikes.</li>
+          <li>Provisioned cloud networking, security policies, and compute resources declaratively using reusable Terraform modules.</li>
+          <li>Integrated Prometheus metric scrapers and configured custom Grafana dashboards tracking real-time cluster telemetry, error budget, and service latency.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <div class="section-title">Education</div>
+      <div class="edu-row">
+        <div>
+          <span class="edu-school">Sathyabama Institute of Science and Technology</span> — <span class="edu-degree">Bachelor of Engineering (B.E.) in Electronics and Communication Engineering</span>
+        </div>
+        <div class="edu-date">Aug 2019 – May 2023</div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
